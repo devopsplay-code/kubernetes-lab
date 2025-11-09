@@ -1,0 +1,17 @@
+apiVersion:
+kind:
+metadata:
+spec:
+
+Inside spec, we will define:
+
+number of replicas
+
+how to select pods
+
+pod template (what pod should look like)
+
+Deployment
+ └─ spec
+     └─ template
+         └─ spec
